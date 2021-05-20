@@ -1,0 +1,169 @@
+.header {
+    text-align: center;
+    color: rgb(18, 49, 80);
+    font-weight: bolder;
+}
+
+body {
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    font-family: monospace;
+}
+
+.level-btn{
+    border: none;
+    background-color: rgb(223, 179, 113);
+    color: saddlebrown;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.start-manual {
+    color: lightgray;
+    cursor: not-allowed;
+}
+.allow-startmanual {
+    color: black;
+    cursor:default;
+}
+
+.manualmode-on{
+    background-color:greenyellow
+}
+
+.buttons {
+    margin-bottom: 15px;
+}
+
+.hints {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    background-color:rgba(0, 139, 139, 0.521);
+    margin-left: 10px;
+    
+}
+.hint-revealed{
+    content-visibility: visible;
+    background-color:rgba(127, 255, 212, 0.644);
+    transition: 1000ms;
+}
+
+.hints img{
+    width: 30px;
+    height: 30px;
+    margin-top:8px;
+}
+
+.lives {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    background-color:rgba(0, 139, 139, 0.521);
+    margin-left: 10px;
+}
+
+.safeclick-btn{
+    background-color:rgba(0, 139, 139, 0.521);
+    margin-left: 10px;
+    width: 120px;
+    height: 50px;
+    font-family: monospace;
+    font-size: 15px;
+}
+.safecell-on{
+    background-color:darkcyan;
+    transition:1000ms;
+}
+.safecell-off{
+    background-color: rgb(206, 157, 73);
+    transition:1000ms;
+}
+.safe-btn-off{
+    color:darkgrey;
+}
+
+.timer {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    background-color:rgba(0, 139, 139, 0.521);
+    font-size: 25px;
+}
+
+.bestscore{
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    background-color:rgba(0, 139, 139, 0.521);
+    margin-left: 10px;
+}
+
+.modal{
+    width: 400px;
+    height: 25px;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: lightgoldenrodyellow;
+    margin:auto;
+    color: lightgoldenrodyellow;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.show-modal{
+    color:black;
+    transition: 1000ms;
+}
+
+.smiley img{
+    cursor: pointer;
+    width:40px;
+    height:40px;
+    margin-top:10px;
+}
+
+table {
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+td {
+    content-visibility: hidden;
+    border: 1px solid black;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    background-color: rgb(206, 157, 73);
+    color: saddlebrown;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.clicked {
+    background-color: rgba(111, 173, 235, 0.459);
+}
+
+.empty-clicked {
+    background-color: lightslategray;
+}
+
+.visible {
+    content-visibility: visible;
+}

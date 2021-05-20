@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Minesweeper</title>
+</head>
+<body onload="initGame(0)">
+    <h1 class="header">Minesweeper</h1>
+    <div class="buttons">
+        <button class="level-btn" onclick="initGame(0)">Beginner</button>
+        <button class="level-btn" onclick="initGame(1)">Medium</button>
+        <button class="level-btn" onclick="initGame(2)">Expert</button>
+        <button class="manual-mode" onclick=setManualOn(this)>Manually Place Mines</button>
+        <button class="start-manual" onclick=startManualGame()>Start Manual</button>
+    </div>
+    <div class="hints" onclick="hintClicked()"></div>
+    <div class="lives"></div>
+    <button class="safeclick-btn" onclick="safeClick(gBoard)">SAFE CLICK<span class="safeclick-count"></span></button>
+    <div class="timer"></div><div class="bestscore">BEST SCORE:<span class="score"></span></div>
+    <div class="modal">NEW BEST SCORE!</div>
+    <div class="smiley" onclick="initGame(0)"></div>
+    <table border="1" cellpadding="10"class="board">
+        <tbody>
+        </tbody>
+    </table>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/manual.js"></script>
+</body>
+</html>
